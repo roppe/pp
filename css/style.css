@@ -407,14 +407,15 @@
 
 
     .services-image{
-    padding-right: 0;
-    padding-left: 40px;
+    padding-right:30px;
+    padding-left: 30px;
     }
 
 
     .services-image img{
     display: block;
     width: 100%;
+    margin-top: 20px;
     }
 
 
@@ -565,7 +566,7 @@
     font-size: 40px;
     text-align: left;
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     font-family: 'Roboto Slab', serif;
     }
     .color-info h3{
@@ -573,7 +574,7 @@
     color: #84bc53;
     font-size: 18px;
     text-align: left;
-    margin-top: 5px;
+    margin-top: 25px;
     margin-bottom: 5px;
     padding-bottom: 0;
     font-family: 'Roboto Slab', serif;
@@ -825,7 +826,7 @@
         font-weight: 400;
         /* color: #f88936 !important; */
         color: #fff;
-        font-size: 45px;
+        font-size: 35px;
         text-align: center;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -839,12 +840,75 @@
         font-size: 18px;
         text-align: center;
         margin-top:0;
-        margin-bottom: 35px;
+        margin-bottom:20px;
         padding-bottom: 0;
         font-family: 'Roboto Slab', serif;
         width: 100%;
 
 
+        }
+
+        #section-services .btn-services-1{
+            font-weight: 600;
+            color: #fff;
+            background-color:transparent;
+            font-size: 15px;
+            text-align: center;
+            margin-top: 35px;
+            margin-bottom: 30px;
+            padding-bottom: 0;
+            font-family: 'Roboto Slab', serif;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 270px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            border: 2px solid #fff;
+        }
+
+        #section-services h5{
+            font-weight: 400;
+            color: #fff;
+            font-size: 17px;
+            text-align: left;
+            padding-left: 15px;
+            margin-bottom: 10px;
+            padding-bottom: 0;
+            font-family: 'Roboto Slab', serif;
+            display: inline-block;
+            }
+    
+            #section-services h5 .fa{
+                color: #fff;
+                margin-right: 8px;
+            }
+
+        #section-services p {
+            font-weight:400;
+            color: #fff;
+            font-size: 14px;
+            text-align: left;
+            margin-top: 0;
+            margin-bottom:10px;
+            padding-bottom: 0;
+            font-family: 'Roboto Slab', serif;
+            width: 100%;
+        }
+
+        
+        #section-services h6 {
+            font-weight:600;
+            color: #fff;
+            font-size: 18px;
+            text-align:center;
+            margin-top:20px;
+            margin-bottom:20pxpx;
+            padding-bottom: 0;
+            font-family: 'Roboto Slab', serif;
+            width: 100%;
         }
 
         .new-buy-info {
@@ -1088,12 +1152,174 @@
     margin-right: auto;
     }
 
+    .small-banner{
+        padding-top: 35px;
+        padding-bottom: 35px;
+        background-color: #84bc53;
+    }
+
+    .small-banner h2{
+        font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    }
+
+    .small-banner p{
+        font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 5px;
+    
+   
+    }
+
+
+    .small-banner .btn-contact {
+        font-weight: 600;
+        color: #fff;
+        background-color: transparent;
+        font-size: 17px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding-bottom: 0;
+        font-family: 'Roboto Slab', serif;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 270px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-radius: 5px;
+        border: 2px solid #FFF;
+    }
+
+
+    /* home slider gallery */
+
+    .before-gallery{
+        padding-top: 35px;
+        padding-bottom: 35px;
+        background-image: url(../img/tile-pattern.jpg);
+        width: 100%;
+        background-repeat: repeat;
+        position: relative;
+    }
+
+    .before-gallery h2 {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+        /* color: #f88936 !important; */
+        color: #333;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+    }
+
+    .before-gallery  .btn-go-5 {
+        font-weight: 600;
+        color: #fff;
+        background-color: #84bc53;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding-bottom: 0;
+        font-family: 'Roboto Slab', serif;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 270px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+   
+    .ba-slider {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    }
+
+    .ba-slider img {
+    width: 100%;
+    display:block;
+    }
+
+    .resize {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    }
+
+
+    .handle { /* Thin line seperator */
+    position:absolute; 
+    left:50%;
+    top:0;
+    bottom:0;
+    width:4px;
+    margin-left:-2px;
+
+    background: rgba(0,0,0,.5);
+    cursor: ew-resize;
+    }
+
+    .handle:after {  /* Big orange knob  */
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin: -29px 0 0 -26px;
+
+    content:'\21d4';
+    color:white;
+    font-weight:bold;
+    font-size:36px;
+    text-align:center;
+    line-height:45px;
+
+    background: #84bc53; /* @orange */
+
+    border-radius: 50%;
+    transition:all 0.3s ease;
+    box-shadow:
+    0 2px 6px rgba(0,0,0,.3), 
+    inset 0 2px 0 rgba(255,255,255,.5),
+    inset 0 60px 50px -30px #84bc53; /* lighten(@orange, 20%)*/ 
+    }
+
+    .draggable:after {
+    width: 50px;
+    height: 50px;
+    margin: -24px 0 0 -24px;
+    line-height:48px;
+    font-size:30px;
+    }
 
     /* BATHTUB SERVICES */
 
         .service-info{
         padding-top: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
+        }
+
+        .service-info .info{
+            padding-left: 35px;padding-right: 35px;
         }
 
         .service-info .info h6{
@@ -1109,7 +1335,7 @@
         font-weight: 400;
 
         color: #333;
-        font-size: 35px;
+        font-size: 21px;
         text-align: left;
         margin-top: 5px;
         margin-bottom: 20px;
@@ -1185,7 +1411,7 @@
         font-weight: 400;
 
         color: #333;
-        font-size: 35px;
+        font-size: 30px;
         text-align: left;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -1196,7 +1422,7 @@
         .process-text h4{
         font-weight: 600;
         color: #333;
-        font-size: 19px;
+        font-size: 18px;
         text-align: left;
         margin-top: 5px;
         margin-bottom: 30px;
@@ -1218,7 +1444,7 @@
         .process-text h5{
         font-weight: 400;
         color: #333;
-        font-size: 17px;
+        font-size: 15px;
         text-align: left;
         padding-left: 15px;
         margin-bottom: 10px;
@@ -1272,6 +1498,74 @@
         }
 
 
+        .headline-text{
+            margin-top:40px;
+            margin-bottom:50px;
+           
+            padding-bottom: 15px;
+            padding-left: 35px;padding-right: 35px;
+            
+            
+            }
+        
+            .headline-text h2{
+                font-size: 21px;
+            font-weight: 500;
+           
+            color: #333;
+            text-align: center;
+            width: 100%;
+            margin-bottom:15px;
+            margin-top: 0;
+            font-family: 'Roboto Slab', serif; 
+        
+            }
+        
+            .headline-text h5{
+                font-weight: 300;
+                color: #999;
+                text-transform: uppercase;
+                text-align: center;
+                width: 100%;
+                margin-bottom: 25px;
+                margin-top: 0;
+                font-size: 20px;
+                font-family: 'Roboto Slab', serif; 
+            
+                }
+                .headline-text  p{
+                    font-family: 'Roboto Slab', serif;
+                    font-weight: 400;
+                    color: #273a44;
+                    font-size: 15px;
+                    text-align: left;
+                    border-bottom: 1px solid #eee;
+                    padding-bottom: 20px;
+                }
+            
+        
+            .headline-text .btn-10 {
+            font-weight: 600;
+            color: #fff;
+            background-color: #84bc53;
+            font-size: 15px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            padding-bottom: 0;
+            font-family: 'Roboto Slab', serif; 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 270px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+           
+            border-radius: 5px;
+            }
+        
+
+
          /* Banner call us now  */
     
          .banner-antislip{
@@ -1281,25 +1575,34 @@
         background-repeat:repeat-x;
         width: 100%;
         background-image: -webkit-linear-gradient(0deg, #84bc53 0%, rgb(100, 148, 58) 100%);
-        margin-top: 40px;
+        margin-top: 25px;
         }
     
         .banner-antislip .call-left h4{
             font-family: 'Roboto Slab', serif; 
         font-weight: 700;
         color: #fafafa;
-        font-size: 33px;
-        text-align: center;
-        margin-top: 15px;
-        margin-bottom: 25px;
+        font-size: 25px;
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 100%;
          
+        }
+
+        .banner-antislip .call-left h4 img{
+            display: block;
+            float: left;
+            width: 50px;height: 50px;
+            margin-right: 20px;
+
         }
 
         .banner-antislip .call-left p{
             font-family: 'Roboto Slab', serif; 
         font-weight: 400;
         color: #ffffff;
-        font-size: 15px;
+        font-size: 14px;
         margin-top: 10px;
         text-align: left;
         margin-bottom: 20px;
@@ -1309,8 +1612,8 @@
             font-family: 'Roboto Slab', serif; 
         font-weight: 500;
         color: #ffffff;
-        font-size: 17px;
-        margin-top: 10px;
+        font-size: 15px;
+        margin-top: 7px;
         text-align: left;
        
         }
@@ -1325,6 +1628,7 @@
 
         .banner-antislip .call-left{
           padding: 30px;
+          padding-bottom: 15px;
         }
 
         .banner-antislip .go-button{
@@ -1332,7 +1636,7 @@
             font-weight: 600;
     
             color: #fff;
-            font-size: 18px;
+            font-size: 16px;
             text-align: left;
             margin-top:35px;
             margin-bottom:5px;
@@ -1361,7 +1665,7 @@
 
     .our-gallery{
         padding-top: 35px;
-        padding-bottom: 35px;
+        padding-bottom: 15px;
     }
 
 
@@ -1383,9 +1687,9 @@
         font-weight: 600;
         color: #333;
         font-size: 17px;
-        text-align: left;
+        text-align: center;
         margin-top: 5px;
-        margin-bottom:2px;
+        margin-bottom:20px;
         padding-bottom: 0;
         font-family: 'Roboto Slab', serif;
         width: 100%;
@@ -1492,7 +1796,7 @@
         font-weight: 400;
         /* color: #f88936 !important; */
         color: #333;
-        font-size: 30px;
+        font-size: 26px;
         text-align: center;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -1505,7 +1809,7 @@
     color: #333;
     font-size: 15px;
     text-align: left;
-    margin-top: 25px;
+    margin-top:15px;
     margin-bottom: 20px;
     font-family: 'Roboto Slab', serif;
     width: 100%;
@@ -1591,6 +1895,86 @@
 
     }
     
+ .services-inline{
+    padding-bottom: 15px;
+    padding-left: 35px;padding-right: 35px;
+ }
+
+
+ .services-inline h2{
+    font-size: 18px;
+    font-weight: 500;
+
+    color: #333;
+    text-align:left;
+    width: 100%;
+    margin-bottom:15px;
+    margin-top: 0;
+    font-family: 'Roboto Slab', serif; 
+
+    }
+
+    
+ .services-inline h4{
+    font-size: 21px;
+    font-weight: 500;
+
+    color: #84bc53;
+    text-align: center;
+    width: 100%;
+    margin-bottom:15px;
+    margin-top: 0;
+    font-family: 'Roboto Slab', serif; 
+
+    }
+
+    .services-inline h5{
+    font-weight: 300;
+    color: #999;
+    text-transform: uppercase;
+    text-align:left;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif; 
+
+    }
+    .services-inline  p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #273a44;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    }
+
+
+    .services-inline .btn-11 {
+    font-weight: 600;
+    color: #fff;
+    background-color: #84bc53;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+    font-family: 'Roboto Slab', serif; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+    border-radius: 5px;
+    }
+
+
+
+
+
     
 	/* --------------- FOOTER STYLE -------------------  */ 
 
