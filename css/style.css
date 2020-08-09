@@ -21,8 +21,8 @@
     .main-navigation .logo-header{
     display: block;
     float: left;
-    width: 244px !important;height:70px;
-    background:url(../img/brooklyn-tile-tub-logo.png) 0 0 no-repeat;
+    width: 375px !important;height:70px;
+    background:url(../img/new-logo-tile-brooklyn.png) 0 0 no-repeat;
     margin-right: 0 !important;
     margin-top: 10px;
     font-family: 'Roboto Slab', serif;
@@ -551,7 +551,7 @@
         padding-left: 20px;
         margin-left: auto;
         margin-right: auto;
-        background-color: #fdfbfb;
+   
         padding-top: 20px;
         padding-bottom: 20px;
         border: 1.5px solid #eee;
@@ -594,7 +594,7 @@
     display: block;
     width: 100%;
     padding-left: 0;
-    margin-top: 35px;
+    margin-top: 50px;
     }
 
     .color-list li{
@@ -1565,6 +1565,66 @@
             }
         
 
+            /* color tub*/
+
+            .color-tub{
+            margin-top:40px;
+            margin-bottom:50px;
+           background-color: #fafafa;
+            padding-bottom: 15px;
+            padding-left: 35px;padding-right: 35px;
+            padding-top: 30px;
+
+
+            }
+
+            .color-tub h2{
+            font-size: 26px;
+            font-weight: 500;
+
+            color: #333;
+            text-align: center;
+            width: 100%;
+            margin-bottom:5px;
+            margin-top: 0;
+            font-family: 'Roboto Slab', serif; 
+
+            }
+
+            .color-tub h5{
+            font-weight: 300;
+            color: #333;
+       
+            text-align: center;
+            width: 100%;
+            margin-bottom: 25px;
+            margin-top: 0;
+            font-size: 20px;
+            font-family: 'Roboto Slab', serif; 
+
+            }
+            .color-tub  p{
+            font-family: 'Roboto Slab', serif;
+            font-weight: 400;
+            color: #273a44;
+            font-size: 15px;
+            text-align: left;
+      
+            }
+
+            .color-tub  p a{
+                font-family: 'Roboto Slab', serif;
+                font-weight: 400;
+                color: #84bc53;
+                font-size: 15px;
+                text-align: left;
+             
+                }
+                .color-tub  img{
+                    display: block;
+                    float: right;
+                }
+
 
          /* Banner call us now  */
     
@@ -1584,7 +1644,7 @@
         color: #fafafa;
         font-size: 25px;
         text-align: left;
-        margin-top: 10px;
+        margin-top: 40px;
         margin-bottom: 15px;
         width: 100%;
          
@@ -1627,8 +1687,8 @@
         }
 
         .banner-antislip .call-left{
-          padding: 30px;
-          padding-bottom: 15px;
+          padding: 0;
+   
         }
 
         .banner-antislip .go-button{
@@ -1901,7 +1961,7 @@
  }
 
 
- .services-inline h2{
+ .services-inline  h2{
     font-size: 18px;
     font-weight: 500;
 
@@ -1935,19 +1995,50 @@
     text-align:left;
     width: 100%;
     margin-bottom: 25px;
-    margin-top: 0;
+    margin-top: 15px;
     font-size: 20px;
     font-family: 'Roboto Slab', serif; 
 
     }
-    .services-inline  p{
+
+    
+  .services-inline  .box  h2{
+    font-size: 18px;
+    font-weight: 500;
+
+    color: #333;
+    text-align:left;
+    width: 100%;
+    margin-bottom:15px;
+    margin-top: 15px;
+    font-family: 'Roboto Slab', serif; 
+
+    }
+    .services-inline  .box p{
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
     color: #273a44;
     font-size: 14px;
     text-align: left;
+
+
+    }
+
+    .services-inline  .box {
     border-bottom: 1px solid #eee;
-    padding-bottom: 20px;
+    padding-bottom: 15px;padding-top: 15px;
+
+    }
+   
+   
+        .services-inline  p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #273a44;
+    font-size: 14px;
+    text-align: left;
+    
+ 
     }
 
 
@@ -1972,7 +2063,13 @@
     }
 
 
-
+    .map{
+        margin-top: 100px;
+        display: block;
+        border-top: 1px solid #fff;
+        padding-top: 20px;
+   
+    }
 
 
     
@@ -2077,14 +2174,23 @@
             list-style-type: none;
             /* float: right; */
             display: block;
-            width: 90%;
+            width: 100%;
             margin-left: auto;
             margin-right: auto;
+            padding-left: 0;
         }
 
         .adress-nav li{
             display: inline-block;
-            margin-right: 40px;
+            margin-right: 20px;
+        }
+
+        .adress-nav li img{
+          
+        }
+
+        .adress-nav li:last-child{
+            margin-right: 0;
         }
     
     
@@ -2127,13 +2233,12 @@
     
          .adress-nav li img{
           display: block;
-          margin-right: 10px;
+          margin-right: 5px;
           float: left;
+          margin-bottom: -13px;
          }
     
-          .adress-nav li:last-child{
-            margin-top: 20px;
-          }
+         
     
     
     
@@ -2359,7 +2464,7 @@
         .contact-us-form{
             border-radius: 5px;
         padding-left: 30px;padding-right: 30px;
-        padding-bottom: 30px;padding-top:15px;
+        padding-bottom: 40px;padding-top:25px;
         width: 100%;
         background-color: #fafafa;
         box-shadow: 0 5px 20px 5px rgba(0,0,0,.1);
