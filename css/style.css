@@ -2064,7 +2064,7 @@
 
 
     .map{
-        margin-top: 100px;
+        margin-top: 80px;
         display: block;
         border-top: 1px solid #fff;
         padding-top: 20px;
@@ -2193,7 +2193,11 @@
             margin-right: 0;
         }
     
-    
+        .contact-img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
     
         .adress-nav li a {
         font-family: 'Archivo Narrow', sans-serif;
@@ -2464,7 +2468,7 @@
         .contact-us-form{
             border-radius: 5px;
         padding-left: 30px;padding-right: 30px;
-        padding-bottom: 40px;padding-top:25px;
+        padding-bottom: 35px;padding-top:25px;
         width: 100%;
         background-color: #fafafa;
         box-shadow: 0 5px 20px 5px rgba(0,0,0,.1);
