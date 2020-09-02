@@ -879,6 +879,7 @@
             padding-bottom: 0;
             font-family: 'Roboto Slab', serif;
             display: inline-block;
+            width: 47%;
             }
     
             #section-services h5 .fa{
@@ -889,7 +890,7 @@
         #section-services p {
             font-weight:400;
             color: #fff;
-            font-size: 14px;
+            font-size: 15px;
             text-align: left;
             margin-top: 0;
             margin-bottom:10px;
@@ -1081,7 +1082,7 @@
             font-weight: 400;
             /* color: #f88936 !important; */
             color: #333;
-            font-size: 45px;
+            font-size: 38px;
             text-align: left;
             margin-top: 5px;
             margin-bottom: 20px;
@@ -2279,6 +2280,13 @@
         letter-spacing: 1px;
         margin-bottom: 3px;
         }
+
+        .sub-footer .copy a {
+            font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+        color: #d5d2d2 !important;
+        text-align: center;
+    }
     
     
 
