@@ -2594,6 +2594,27 @@
     
       @media (max-width: 1079px) {
 
+        .main-navigation {
+            background-color: #eeeeee;
+        }
+
+        .home-info h2{
+            font-size: 29px;
+        }
+
+        .home-info h3{
+            font-size: 17px;
+        }
+
+        .home-services-top h2{
+            font-size: 33px;
+        }
+
+        .main-navigation .nav-list .nav-link {
+            font-size: 9px;
+        }
+
+    
           .main-navigation .nav-list .nav-link{
             font-size: 11px;
           }
@@ -2650,6 +2671,108 @@
 
     @media (max-width: 991px) {
         
+        .main-navigation {
+            background-color:#039BE5;
+        }
+
+        .home-info h2 {
+            font-size: 23px;
+        }
+
+        .home-info h6 {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 400;
+            color: #333333;
+            font-size: 14px;
+            text-align: left;
+            padding-left: 5px;
+        }
+
+        #section-services h5{
+            font-size: 16px;
+        }
+
+        .banner-antislip img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .banner-antislip .call-left {
+            padding-left:30px;
+        }
+
+        .banner-cover-top{
+            height: 150px;
+        }
+
+        .color-tub img {
+            display: block;
+            float:none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .adress-nav li a{
+            font-size: 11px;
+        }
+
+        .adress-nav li{
+            margin-right: 5px;
+        }
+
+        .color-info{
+            margin-top: 70px;
+        }
+
+        .color-tub{
+            margin-top: 15px;
+        }
+
+        .services-inline .box p{
+            font-size: 12px;
+        }
+
+        .color-info h6{
+            font-size: 15px;
+        }
+
+        .color-info h2{
+            font-size: 35px;
+        }
+
+        .info-service h2{
+            font-size: 30px;
+        }
+        .info-service h3{
+            font-size: 16px;
+        }
+
+        .info-service h6{
+            font-size: 14px;
+        }
+
+        .services-inline .box img{
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 15px;
+        }
+        .v-tiles{
+            display: none;
+        }
+
+        .top-other h2{
+            font-size: 22px;
+        }
+
+        .adress-nav li:first-child{
+            display: none;
+        }
+
+        .headline-text .vert-img{
+            display: none !important;
+        }
        
 
         #top-section .tx-box-1 h2{
@@ -2814,7 +2937,134 @@
 
     @media (max-width: 767.98px) {
 
+        .main-navigation {
+            background-color:#069455;
+        }
 
+        .home-services-top h2 {
+            font-size: 29px;
+        }
+
+        #section-services h5 {
+            font-size: 14px;
+        }
+
+        .home-services-top h3{
+            font-size: 16px;
+        }
+
+        .info-service h3 {
+            font-size: 15px;
+        }
+
+        .info-service h2 {
+            font-size: 26px;
+        }
+
+        .banner-antislip .call-left {
+            padding-left:0;
+        }
+
+        .banner-antislip .call-left h4{
+            font-size: 22px;
+        }
+
+        .headline-text{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .color-tub h2 {
+            font-size: 23px;
+            margin-top: 20px;
+        }
+
+        .color-tub p{
+            font-size: 14px;
+        }
+
+        .color-info h2 {
+            font-size: 28px;
+        }
+
+        .color-info h3{
+            font-size: 16px;
+        }
+
+        .small-banner h2 {
+            font-size: 21px;
+        }
+
+        .top-other p{
+            font-size: 14px;   
+        }
+
+        .top-other h2 {
+            font-size: 20px;
+        }
+
+        .service-info .info h6{
+            font-size: 14px;  
+        }
+
+        .headline-text p{
+            font-size: 14px;
+        }
+
+        .color-tub {
+            margin-top: 20px;
+            margin-bottom: 50px;
+            background-color: #fafafa;
+            padding-bottom: 15px;
+            padding-left: 15px;
+            padding-right:15px;
+            padding-top: 30px;
+        }
+
+        .info-service h6 {
+            font-size: 13px;
+            padding-left: 0;
+        }
+
+        .small-banner h2 {
+            font-size: 24px;
+        }
+
+        .adress-nav li:last-child {
+            margin-top:25px;
+        }
+
+        .adress-nav li:last-child a img{
+            margin-right: 15px;
+        }
+
+        .small-banner p{
+            font-size:15px;
+        }
+
+        #main-description{
+            padding-right: 0;
+        }
+
+        .home-services-top h6{
+            font-size: 15px;
+        }
+
+        .before-gallery h2{
+            font-size: 25px;
+        }
+
+        #section-services .t-1{
+            font-size: 28px;
+        }
+
+        #section-services .t-2{
+            font-size: 16px;
+        }
+
+        #section-services p{
+            font-size: 14px;
+        }
 
         .process-steps{
         max-width: 100%;
@@ -2926,7 +3176,138 @@
 
 	
 	@media (max-width: 575.98px) { 
-	
+        
+
+        .main-navigation {
+            background-color:#e69906;
+        }
+
+        .home-services-top {
+            padding-left: 15px;
+            padding-top: 25px;
+        }
+
+        .home-services-top h2 {
+            font-size: 23px;
+        }
+
+        .before-gallery h2 {
+            font-size: 23px;
+        }
+
+        #section-services .t-1 {
+            font-size: 24px;
+        }
+
+        #section-services h5 {
+            font-size: 14px;
+            width: 100%;
+        }
+        .banner-cover-top .text-headline h6{
+            font-size: 16px;
+        }
+
+        .service-info .info {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .color-tub h5{
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .headline-text h2{
+            font-size: 19px;
+        }
+
+        .color-tub h2 {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .top-other h2 {
+            font-size: 18px;
+        }
+
+        .services-inline {
+            padding-bottom: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        #custCarousel .carousel-indicators li img {
+            display: block;
+            opacity: 0.5;
+            width: 155px;
+        }
+
+        #contact-top h2{
+            font-size: 24px;
+        }
+
+        .adress-nav li {
+            margin-right: 5px;
+            width: 100%;
+            display: block;
+            float: left;
+            margin-bottom: 25px;
+        }
+
+        .adress-nav li:last-child {
+            margin-top: 5px;
+        }
+
+        .sub-footer .copy{
+            font-size: 10px;
+        }
+
+        .form-group .upload-label {
+            font-family: "Open Sans";
+            color: #333;
+            font-size: 12px;
+        }
+
+        .contact-us-form{
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        #contact-top{
+            margin-top: 100px;
+        }
+
+
+        #contact-top{
+            padding-right: 0;
+        }
+
+        .services-inline .box h2{
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .before-gallery h2 {
+            font-size: 20px;
+        }
+
+        .banner-antislip .call-left h5{
+            font-size: 14px;
+        }
+
+        .banner-cover-top .text-headline h6 .line-3{
+            display: none;
+        }
+
+        .banner-cover-top {
+            height: 150px;
+            margin-top: 130px;
+        }
+
+        #section-services h6{
+            font-size: 15px;
+        }
+
 
         #home-section .text-area h2 span{
             font-size: 24px;
