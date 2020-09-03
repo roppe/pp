@@ -2594,9 +2594,7 @@
     
       @media (max-width: 1079px) {
 
-        .main-navigation {
-            background-color: #eeeeee;
-        }
+    
 
         .home-info h2{
             font-size: 29px;
@@ -2671,9 +2669,7 @@
 
     @media (max-width: 991px) {
         
-        .main-navigation {
-            background-color:#039BE5;
-        }
+       
 
         .home-info h2 {
             font-size: 23px;
@@ -2937,10 +2933,7 @@
 
     @media (max-width: 767.98px) {
 
-        .main-navigation {
-            background-color:#069455;
-        }
-
+        
         .home-services-top h2 {
             font-size: 29px;
         }
@@ -3178,9 +3171,7 @@
 	@media (max-width: 575.98px) { 
         
 
-        .main-navigation {
-            background-color:#e69906;
-        }
+       
 
         .home-services-top {
             padding-left: 15px;
