@@ -14,7 +14,7 @@
     .navbar-toggler .navbar-toggler-icon .fa{
     font-size: 30px;
     display: block !important;
-    color: #e69906!important;
+    color: #84bc53!important;
     border:0;
     }
 
@@ -298,7 +298,7 @@
     font-size: 18px;
     text-align: center;
     padding-top: 10px;padding-bottom: 10px;
-    width: 200px;
+    width: 240px;
     background-color:#84bc53 ;
     display: block;
     float: right;
@@ -3176,7 +3176,9 @@
 	@media (max-width: 575.98px) { 
         
 
-       
+        .adress-nav li a {
+            font-size: 14px;
+        }
 
         .home-services-top {
             padding-left: 15px;
