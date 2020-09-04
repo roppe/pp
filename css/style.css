@@ -1327,7 +1327,7 @@
         font-family: 'Roboto Slab', serif;
         font-weight: 400;
         color: #273a44;
-        font-size: 15px;
+        font-size: 16px;
         text-align: left;
         }
 
@@ -1538,10 +1538,20 @@
                     font-family: 'Roboto Slab', serif;
                     font-weight: 400;
                     color: #273a44;
-                    font-size: 15px;
+                    font-size: 16px;
                     text-align: left;
                     border-bottom: 1px solid #eee;
                     padding-bottom: 20px;
+                }
+
+                .headline-text  .t-list{
+                    font-family: 'Roboto Slab', serif;
+                    font-weight: 600;
+                    color: #273a44;
+                    font-size: 15px;
+                    text-align: left;
+                    display: inline-block;
+                    width: 46%;
                 }
             
         
@@ -2019,7 +2029,7 @@
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
     color: #273a44;
-    font-size: 14px;
+    font-size: 17px;
     text-align: left;
 
 
@@ -2036,7 +2046,7 @@
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
     color: #273a44;
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
     
  
@@ -3441,6 +3451,16 @@
 
         .demo-box .box-content h3{
             font-size: 19px;
+        }
+
+        .headline-text  .t-list{
+            font-family: 'Roboto Slab', serif;
+            font-weight: 600;
+            color: #273a44;
+            font-size: 15px;
+            text-align: left;
+            display: inline-block;
+            width: 100%;
         }
 
 
